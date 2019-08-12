@@ -1,0 +1,11 @@
+{
+  "WS_Login_API" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/login",
+  "WS_TMSLookup_API" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tms/search",
+  "WS_TMS_ProjectGroups_Create_API" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projectGroups/create",
+
+
+  "WS_Info": {
+    "username":"henryli",
+    "password":"Dreambaby#12"
+  }
+}
