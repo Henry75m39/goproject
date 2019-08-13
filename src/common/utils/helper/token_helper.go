@@ -1,9 +1,8 @@
-package utils
+package helper
 
 import (
 	"GRM/src/common/configs"
 	"GRM/src/common/utils/db"
-	"GRM/src/common/utils/helper"
 	"GRM/src/common/utils/log"
 	"bytes"
 	"encoding/json"
@@ -14,26 +13,25 @@ import (
 )
 
 type UserInfo struct {
-	SessionID      *string `json:"sessionId"`
-	InstanceID     int     `json:"instanceId"`
-	ExpirationTime string  `json:"expirationTime"`
-	UserDetails    struct {
-		UserType               string `json:"userType"`
-		Username               string `json:"username"`
-		FullName               string `json:"fullName"`
-		Fingerprint            string `json:"fingerprint"`
-		RegionalSettingsLocale string `json:"regionalSettingsLocale"`
-		Language               struct {
-			ID           int    `json:"id"`
-			LanguageCode string `json:"languageCode"`
-			CountryCode  string `json:"countryCode"`
-			IsoCode      string `json:"isoCode"`
-			Locale       string `json:"locale"`
-		} `json:"language"`
-	} `json:"userDetails"`
-	LastUpdateTime  int64  `json:"lastUpdateTime"`
-	DaysToPwdExpire int    `json:"daysToPwdExpire"`
-	LoginOutcome    string `json:"loginOutcome"`
+	SessionID       *string     `json:"sessionId"`
+	ExpirationTime  string      `json:"expirationTime"`
+	UserDetails     UserDetails `json:"userDetails"`
+	LoginOutcome    string      `json:"loginOutcome"`
+	LastUpdateTime  int64       `json:"lastUpdateTime"`
+	DaysToPwdExpire int         `json:"daysToPwdExpire"`
+}
+type Language struct {
+	ID           int    `json:"id"`
+	LanguageCode string `json:"languageCode"`
+	CountryCode  string `json:"countryCode"`
+	Locale       string `json:"locale"`
+}
+type UserDetails struct {
+	Username               string   `json:"username"`
+	FullName               string   `json:"fullName"`
+	Fingerprint            string   `json:"fingerprint"`
+	Language               Language `json:"language"`
+	RegionalSettingsLocale string   `json:"regionalSettingsLocale"`
 }
 
 func GetToken() (token *string) {
@@ -74,7 +72,7 @@ func GetToken() (token *string) {
 	}
 
 	if expired || !isKeyExist {
-		contents = helper.GetJsonContents()
+		contents = GetJsonContents()
 		//unmarshal the json to struct object
 		err = json.Unmarshal([]byte(contents), &c)
 		if err != nil {
