@@ -1,4 +1,4 @@
-package wrapper
+package project_group
 
 import (
 	"GRM/src/common/configs"
@@ -23,18 +23,22 @@ type Response struct {
 }
 
 func CreateProjectGroup(resp entity.ProjectGroup) (status string, err error) {
+	logger := log.Instance()
 	var c configs.WSConfig
 	var contents []byte
 	contents = helper.GetJsonContents()
 	//unmarshal the json to struct object
 	err = json.Unmarshal([]byte(contents), &c)
 	if err != nil {
+		logger.Error("Error", zap.Any("createProjectGroup", "json data input error"))
 		return
 	}
 	//construct login Restful API path
-	apiPath := c.WSTMSProjectGroupsCreateAPI
-	logger := log.Instance()
-
+	apiPath := c.WSProjectGroup.ProjectGroupCreate
+	if apiPath == "" {
+		logger.Error("Error", zap.Any("createProjectGroup", "REST API cannot read from JSON config file "))
+		return
+	}
 	jsonValue, err := json.Marshal(&resp)
 	if err != nil {
 		logger.Error("Error", zap.Any("createProjectGroup", "json data input error"))
@@ -49,12 +53,10 @@ func CreateProjectGroup(resp entity.ProjectGroup) (status string, err error) {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
+
 	data, err := ioutil.ReadAll(rsp.Body)
-
 	status = parseResult(data)
-
 	fmt.Println(status)
-
 	return status, err
 }
 

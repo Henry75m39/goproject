@@ -4,8 +4,7 @@ import (
 	"GRM/src/common/configs"
 	"GRM/src/common/utils/db"
 	"GRM/src/common/utils/log"
-	"GRM/src/tms-srv/provider"
-
+	"GRM/src/tms-srv/server"
 	"github.com/micro/cli"
 	"github.com/micro/go-micro"
 	"go.uber.org/zap"
@@ -29,7 +28,7 @@ func main() {
 			db.InitLevelDB()
 			logger.Info("Info", zap.Any("tms-srv", "tms-srv is starting now ..."))
 
-			provider.TMSAPIProvider()
+			server.GinServer()
 		}),
 
 		micro.AfterStop(func() error {
