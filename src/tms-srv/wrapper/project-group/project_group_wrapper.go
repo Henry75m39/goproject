@@ -22,10 +22,13 @@ type Response struct {
 	Response int    `json:"response"`
 }
 
-func CreateProjectGroup(resp entity.ProjectGroup) (status string, err error) {
-	logger := log.Instance()
+func CreateProjectGroup(resp entity.ProjectGroup) (status []string, err error) {
+
 	var c configs.WSConfig
 	var contents []byte
+
+	logger := log.Instance()
+	token := helper.GetToken()
 	contents = helper.GetJsonContents()
 	//unmarshal the json to struct object
 	err = json.Unmarshal([]byte(contents), &c)
@@ -46,6 +49,7 @@ func CreateProjectGroup(resp entity.ProjectGroup) (status string, err error) {
 	}
 	req, _ := http.NewRequest("POST", apiPath, bytes.NewBuffer(jsonValue))
 	req.Header.Set("Content-Type", "application/json")
+	req.Header.Add("token", *token)
 
 	client := &http.Client{}
 	rsp, err := client.Do(req)
@@ -54,15 +58,9 @@ func CreateProjectGroup(resp entity.ProjectGroup) (status string, err error) {
 		fmt.Println(err.Error())
 	}
 
-	data, err := ioutil.ReadAll(rsp.Body)
-	status = parseResult(data)
-	fmt.Println(status)
-	return status, err
-}
+	data, _ := ioutil.ReadAll(rsp.Body)
 
-func parseResult(jsonResult []byte) (status string) {
-	var r Result
-	_ = json.Unmarshal(jsonResult, &r)
-	status = r.Status
-	return status
+	status = helper.ParseCommonJSONResult(data)
+
+	return status, err
 }

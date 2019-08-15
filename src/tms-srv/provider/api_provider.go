@@ -2,7 +2,7 @@ package provider
 
 import (
 	"GRM/src/tms-srv/entity"
-	project_group "GRM/src/tms-srv/wrapper/project-group"
+	projectgroup "GRM/src/tms-srv/wrapper/project-group"
 	"GRM/src/tms-srv/wrapper/projects"
 	"github.com/gin-gonic/gin"
 	"net/http"
@@ -11,7 +11,7 @@ import (
 func ProjectsCreateForTaskCaller(c *gin.Context) {
 	var project entity.Projects
 	if err := c.ShouldBindJSON(&project); err == nil {
-		c.JSON(http.StatusOK, gin.H{"message": "project data is valid!"})
+		c.JSON(http.StatusOK, gin.H{"message": "project JSON input data is valid!"})
 	} else {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 	}
@@ -21,9 +21,9 @@ func ProjectsCreateForTaskCaller(c *gin.Context) {
 func ProjectsGroupCreateCaller(c *gin.Context) {
 	var projectGroup entity.ProjectGroup
 	if err := c.ShouldBindJSON(&projectGroup); err == nil {
-		c.JSON(http.StatusOK, gin.H{"message": "project group data is valid!"})
+		c.JSON(http.StatusOK, gin.H{"message": "project group JSON input data is valid!"})
 	} else {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 	}
-	_, _ = project_group.CreateProjectGroup(projectGroup)
+	_, _ = projectgroup.CreateProjectGroup(projectGroup)
 }

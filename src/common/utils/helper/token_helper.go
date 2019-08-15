@@ -6,6 +6,7 @@ import (
 	"GRM/src/common/utils/log"
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"go.uber.org/zap"
 	"io/ioutil"
 	"net/http"
@@ -39,9 +40,9 @@ func GetToken() (token *string) {
 	var contents []byte
 	var err error
 	var expired bool
-	var timeInSeconds float64
+	var sessionTimeOutDuration int64
 
-	timeInSeconds = 1800 * 1000
+	sessionTimeOutDuration = 20 * 60
 
 	logger := log.Instance()
 
@@ -50,11 +51,11 @@ func GetToken() (token *string) {
 	if isKeyExist {
 		timeStamp, _ := db.Instance.Get([]byte("timeStamp"), nil)
 		//calculate time differ, and save new timestamp.
-		t, _ := time.Parse("2006-01-02 15:04:05", string(timeStamp))
-		now := time.Now()
-		subSecond := now.Sub(t)
+		nowTimeInStr := time.Now().Format("2006-01-02 15:04:05")
 
-		if subSecond.Seconds() <= timeInSeconds {
+		differSecond := getHourDiffer(string(timeStamp), nowTimeInStr)
+
+		if differSecond <= sessionTimeOutDuration {
 			//not expired
 			cachedToken, err := db.Instance.Get([]byte("sessionId"), nil)
 			strToken := string(cachedToken)
@@ -107,11 +108,11 @@ func GetToken() (token *string) {
 		}
 	}
 
-	err = db.Instance.Close()
-	if err != nil {
-		logger.Error("ERROR", zap.Any("Related to LevelDB", err))
+	//err = db.Instance.Close()
+	//if err != nil {
+	//	logger.Error("ERROR", zap.Any("Related to LevelDB", err))
 
-	}
+	//}
 	return token
 }
 
@@ -126,4 +127,20 @@ func getSessionID(jsonResult []byte) (sessionID *string) {
 	//}
 	//}
 	return sessionID
+}
+
+func getHourDiffer(start_time, end_time string) int64 {
+	t1, err := time.ParseInLocation("2006-01-02 15:04:05", start_time, time.Local)
+	t2, err := time.ParseInLocation("2006-01-02 15:04:05", end_time, time.Local)
+	if err == nil && t1.Before(t2) {
+		diff := t2.Unix() - t1.Unix() //
+
+		hour := float64(diff) / 3600.00
+		fmt.Println(hour)
+		second := hour * 3600.00
+		fmt.Println(second)
+		return diff
+	} else {
+		return 0
+	}
 }

@@ -15,6 +15,7 @@ import (
 
 func GinServer() {
 	router := gin.Default()
+	//Please keep in mind to comment out this debug mode when release to prod env
 	gin.SetMode("debug")
 	// server management. init server
 	router.GET("/", func(c *gin.Context) {

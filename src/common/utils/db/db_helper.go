@@ -11,7 +11,8 @@ var Instance *leveldb.DB
 
 func InitLevelDB() *leveldb.DB {
 	//initialize levelDB storage files under leveldb directory.
-	Instance, err = leveldb.OpenFile("../goapp/persistent/leveldb", nil)
+	//Todo: Move the data persist path can be configurable in JSON file.
+	Instance, err = leveldb.OpenFile("data/goapp/leveldb", nil)
 	if err != nil {
 		fmt.Println("LevelDB errors: %s", err)
 	}
