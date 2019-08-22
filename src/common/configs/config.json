@@ -5,7 +5,11 @@
     "ProjectGroup_Create_API": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projectGroups/create"
   },
   "WS_Projects": {
-    "Create_For_Task": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/createForTask"
+    "Create_For_Task": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/createForTask",
+    "Cancel_Project": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/cancel"
+  },
+  "WS_Cost_Models": {
+    "Cost_Models": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/costModels"
   },
   "WS_Info": {
     "username": "henryli",

@@ -57,8 +57,9 @@ func CreateProjectGroup(resp entity.ProjectGroup) (status []string, err error) {
 	if err != nil {
 		fmt.Println(err.Error())
 	}
-
+	//Reads the body of response and closes the body reader when done reading it.
 	data, _ := ioutil.ReadAll(rsp.Body)
+	rsp.Body.Close()
 
 	status = helper.ParseCommonJSONResult(data)
 

@@ -16,10 +16,12 @@ type WSConfig struct {
 	WSProjects     WSProjects     `json:"WS_Projects"`
 	WSProjectGroup WSProjectGroup `json:"WS_Project_Group"`
 	WSInfo         WSInfo         `json:"WS_Info"`
+	WSCostModels   WSCostModels   `json:"WS_Cost_Models"`
 }
 
 type WSProjects struct {
 	WSCreateForTask string `json:"Create_For_Task"`
+	WSCancelProject string `json:"Cancel_Project"`
 }
 
 type WSProjectGroup struct {
@@ -28,4 +30,8 @@ type WSProjectGroup struct {
 type WSInfo struct {
 	Username string `json:"username"`
 	Password string `json:"password"`
+}
+
+type WSCostModels struct {
+	CostModels string `json:"Cost_Models"`
 }

@@ -7,17 +7,22 @@ import (
 func ServiceRouterGroup(router *gin.Engine) {
 
 	//group 1: This group define for project router service
-	v1 := router.Group("/projects")
+	g1 := router.Group("/projects")
 	{
-		v1.POST("/createfortask", ProjectsCreateForTaskCaller)
+		g1.POST("/createfortask", ProjectsCreateForTaskCaller)
+		g1.POST("/cancel", CancelProjectCaller)
 
 	}
 
 	//group 2: This group define for project group router service
-	v2 := router.Group("/projectgroup")
+	g2 := router.Group("/projectgroup")
 	{
-		v2.POST("/create", ProjectsGroupCreateCaller)
-		//v2.POST("/submit", ProjectsGroupCreateCaller)
-		//v2.POST("/read", readEndpoint)
+		g2.POST("/create", ProjectsGroupCreateCaller)
+
+	}
+	//group 3: This group define for cost models router service
+	g3 := router.Group("/costmodels")
+	{
+		g3.GET("", CostModelsCaller)
 	}
 }
