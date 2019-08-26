@@ -13,7 +13,7 @@ import (
 	"net/http"
 )
 
-func CreateForTask(resp entity.Projects) (status []string, err error) {
+func CreateForTask(projects entity.Projects) (status []string, err error) {
 	var c configs.WSConfig
 	var contents []byte
 
@@ -33,7 +33,7 @@ func CreateForTask(resp entity.Projects) (status []string, err error) {
 		logger.Error("Error", zap.Any("createProjectForTask", "REST API cannot read from JSON config file "))
 		return
 	}
-	jsonValue, err := json.Marshal(&resp)
+	jsonValue, err := json.Marshal(&projects)
 	if err != nil {
 		logger.Error("Error", zap.Any("createProjectForTask", "json data input error"))
 		return
@@ -58,7 +58,7 @@ func CreateForTask(resp entity.Projects) (status []string, err error) {
 	return status, err
 }
 
-func CancelProject(resp entity.CancelProject) (status []string, err error) {
+func CancelProject(cancelProject entity.CancelProject) (status []string, err error) {
 	var c configs.WSConfig
 	var contents []byte
 
@@ -77,7 +77,7 @@ func CancelProject(resp entity.CancelProject) (status []string, err error) {
 		logger.Error("Error", zap.Any("cancelProject ", "REST API cannot read from JSON config file "))
 		return
 	}
-	jsonValue, err := json.Marshal(&resp)
+	jsonValue, err := json.Marshal(&cancelProject)
 	if err != nil {
 		logger.Error("Error", zap.Any("cancelProject", "json data input error"))
 		return

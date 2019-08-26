@@ -17,6 +17,7 @@ type WSConfig struct {
 	WSProjectGroup WSProjectGroup `json:"WS_Project_Group"`
 	WSInfo         WSInfo         `json:"WS_Info"`
 	WSCostModels   WSCostModels   `json:"WS_Cost_Models"`
+	WSFiles        WSFiles        `json:"WS_Files"`
 }
 
 type WSProjects struct {
@@ -34,4 +35,8 @@ type WSInfo struct {
 
 type WSCostModels struct {
 	CostModels string `json:"Cost_Models"`
+}
+
+type WSFiles struct {
+	Files string `json:"Files"`
 }

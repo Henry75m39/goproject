@@ -46,7 +46,7 @@ func ParseJSONResult(v interface{}) []string {
 		Runes = append(Runes, "Status:")
 		Runes = append(Runes, vv)
 	case float64:
-		fmt.Println("is float64", vv)
+		fmt.Println("is: ", vv)
 		Runes = append(Runes, "Error Code:")
 		s1 := strconv.FormatInt(int64(vv), 10)
 		Runes = append(Runes, s1)

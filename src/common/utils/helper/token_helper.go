@@ -58,10 +58,11 @@ func GetToken() (token *string) {
 		if differSecond <= sessionTimeOutDuration {
 			//not expired
 			cachedToken, err := db.Instance.Get([]byte("sessionId"), nil)
+			//update cached token timestamp
+			db.Instance.Put([]byte("timeStamp"), []byte(nowTimeInStr), nil)
 			strToken := string(cachedToken)
-			if err == nil {
-				logger.Info("Info", zap.Any("Key:", "sessionId"))
-				logger.Info("Info", zap.Any("Value:", string(cachedToken)))
+			if err != nil {
+				logger.Info("ERROR:", zap.Any("LevelDB:", "DB occurs error when Get"))
 			}
 			//db.Instance.Close()
 			expired = false

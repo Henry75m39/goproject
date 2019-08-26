@@ -7,21 +7,14 @@ import (
 	"bytes"
 	"encoding/json"
 	"go.uber.org/zap"
+	"io"
 	"io/ioutil"
 	"mime/multipart"
 	"net/http"
+	"path/filepath"
 )
 
-func Upload(file *multipart.FileHeader) (status []string, err error) {
-
-	// Prepare a form that you will submit to that URL.
-	var b bytes.Buffer
-	w := multipart.NewWriter(&b)
-
-	// Don't forget to close the multipart writer.
-	// If you don't close it, your request will be missing the terminating boundary.
-	_ = w.Close()
-
+func Upload(file *multipart.File, handler *multipart.FileHeader) (status []string, err error) {
 	var c configs.WSConfig
 	var contents []byte
 
@@ -30,28 +23,29 @@ func Upload(file *multipart.FileHeader) (status []string, err error) {
 
 	contents = helper.GetJsonContents()
 	//unmarshal the json to struct object
-	err = json.Unmarshal([]byte(contents), &c)
-	if err != nil {
-		return
-	}
+	_ = json.Unmarshal([]byte(contents), &c)
 	//construct login Restful API path
 	apiPath := c.WSFiles.Files
 
 	if apiPath == "" {
-		logger.Error("Error", zap.Any("createProjectForTask", "REST API cannot read from JSON config file "))
+		logger.Error("Error", zap.Any("Upload File", "REST API cannot read from JSON config file."))
 		return
 	}
 
-	// Now that you have a form, you can submit it to your handler.
-
-	req, err := http.NewRequest("POST", apiPath, &b)
-
-	// Don't forget to set the content type, this will contain the boundary.
-	req.Header.Set("Content-Type", w.FormDataContentType())
-	req.Header.Set("token", *token)
+	body := &bytes.Buffer{}
+	writer := multipart.NewWriter(body)
+	part, err := writer.CreateFormFile("file", filepath.Base(handler.Filename))
 	if err != nil {
-		panic(err)
+		logger.Error("Error", zap.Any("Upload File", "Create form file occurs error."))
+
 	}
+	_, err = io.Copy(part, *file)
+	_ = writer.Close()
+
+	req, err := http.NewRequest("POST", apiPath, body)
+	req.Header.Set("Content-Type", writer.FormDataContentType())
+	req.Header.Add("token", *token)
+
 	// Submit the request
 	client := &http.Client{}
 	resp, err := client.Do(req)

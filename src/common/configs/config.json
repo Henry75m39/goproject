@@ -11,6 +11,9 @@
   "WS_Cost_Models": {
     "Cost_Models": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/costModels"
   },
+  "WS_Files" : {
+    "Files" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/files"
+  },
   "WS_Info": {
     "username": "henryli",
     "password": "Dreambaby#12"
