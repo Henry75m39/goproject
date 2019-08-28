@@ -1,9 +1,10 @@
 package server
 
 import (
+	"GRM/src/common/utils/log"
 	"GRM/src/tms-srv/provider"
 	"context"
-	"log"
+	"go.uber.org/zap"
 	"net/http"
 	"os"
 	"os/signal"
@@ -15,6 +16,7 @@ import (
 
 func GinServer() {
 	router := gin.Default()
+	logger := log.Instance()
 	//Please keep in mind to comment out this debug mode when release to prod env
 	gin.SetMode("debug")
 	// server management. init server
@@ -34,7 +36,7 @@ func GinServer() {
 	go func() {
 		// service connections
 		if err := srv.ListenAndServe(); err != nil && err != http.ErrServerClosed {
-			log.Fatalf("listen: %s\n", err)
+			logger.Error("Error", zap.Any("listen: %s", err))
 		}
 	}()
 
@@ -46,13 +48,13 @@ func GinServer() {
 	// kill -9 is syscall. SIGKILL but can"t be catch, so don't need add it
 	signal.Notify(quit, syscall.SIGINT, syscall.SIGTERM)
 	<-quit
-	log.Println("TMS Shutdown Server ...")
+	logger.Info("Info", zap.Any("Gin:", "Shutdown Server ..."))
 
 	ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
 	defer cancel()
 	if err := srv.Shutdown(ctx); err != nil {
-		log.Fatal("TMS Server Shutdown: ", err)
+		logger.Error("Error", zap.Any("TMS Server Shutdown:", err))
 	}
+	logger.Info("Info", zap.Any("Gin:", "TMS Server exiting ..."))
 
-	log.Println("TMS Server exiting")
 }

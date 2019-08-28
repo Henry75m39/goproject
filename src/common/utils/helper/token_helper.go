@@ -42,6 +42,8 @@ func GetToken() (token *string) {
 	var expired bool
 	var sessionTimeOutDuration int64
 
+	//initial setting for the WorldServer session timeout in 20 minutes.
+	//calculation in seconds.
 	sessionTimeOutDuration = 20 * 60
 
 	logger := log.Instance()
@@ -59,10 +61,10 @@ func GetToken() (token *string) {
 			//not expired
 			cachedToken, err := db.Instance.Get([]byte("sessionId"), nil)
 			//update cached token timestamp
-			db.Instance.Put([]byte("timeStamp"), []byte(nowTimeInStr), nil)
+			err = db.Instance.Put([]byte("timeStamp"), []byte(nowTimeInStr), nil)
 			strToken := string(cachedToken)
 			if err != nil {
-				logger.Info("ERROR:", zap.Any("LevelDB:", "DB occurs error when Get"))
+				logger.Error("ERROR:", zap.Any("LevelDB:", "DB occurs error when Get"))
 			}
 			//db.Instance.Close()
 			expired = false
@@ -78,8 +80,8 @@ func GetToken() (token *string) {
 		//unmarshal the json to struct object
 		err = json.Unmarshal([]byte(contents), &c)
 		if err != nil {
-			logger.Info("ERROR:", zap.Any("Parsing JSON file:", err))
-			return
+			logger.Error("ERROR:", zap.Any("Parsing JSON file:", err))
+			panic("Error")
 		}
 		//construct login Restful API path
 		apiPath := c.WSLoginAPI
@@ -94,6 +96,9 @@ func GetToken() (token *string) {
 
 		client := &http.Client{}
 		rsp, err := client.Do(request)
+		if err != nil {
+			logger.Error("Error:", zap.Any("Request handling error occurred:", err))
+		}
 
 		data, err := ioutil.ReadAll(rsp.Body)
 		token = getSessionID(data)
@@ -103,7 +108,6 @@ func GetToken() (token *string) {
 		err = db.Instance.Put([]byte("timeStamp"), []byte(t), nil)
 
 		err = db.Instance.Put([]byte("sessionId"), []byte(*token), nil)
-
 		if err != nil {
 			logger.Error("ERROR", zap.Any("Put new sessionId failed caused by", err))
 		}
@@ -130,12 +134,12 @@ func getSessionID(jsonResult []byte) (sessionID *string) {
 	return sessionID
 }
 
-func getHourDiffer(start_time, end_time string) int64 {
-	t1, err := time.ParseInLocation("2006-01-02 15:04:05", start_time, time.Local)
-	t2, err := time.ParseInLocation("2006-01-02 15:04:05", end_time, time.Local)
+func getHourDiffer(startTime, endTime string) int64 {
+	t1, err := time.ParseInLocation("2006-01-02 15:04:05", startTime, time.Local)
+	t2, err := time.ParseInLocation("2006-01-02 15:04:05", endTime, time.Local)
 	if err == nil && t1.Before(t2) {
 		diff := t2.Unix() - t1.Unix() //
-
+		//internal testing for time calculation
 		hour := float64(diff) / 3600.00
 		fmt.Println(hour)
 		second := hour * 3600.00

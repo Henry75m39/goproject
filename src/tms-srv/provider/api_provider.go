@@ -23,43 +23,57 @@ func ProjectsCreateForTaskCaller(c *gin.Context) {
 
 func CancelProjectCaller(c *gin.Context) {
 	var cancelProject entity.CancelProject
-
-	if err := c.ShouldBindJSON(&cancelProject); err == nil {
-		c.JSON(http.StatusOK, gin.H{"message": "project JSON input data is valid!"})
-	} else {
+	err := c.ShouldBindJSON(&cancelProject)
+	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+	} else {
+		data, err := projects.CancelProject(cancelProject)
+		if err != nil {
+			c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
+		}
+		_, _ = c.Writer.Write(data)
 	}
 
-	_, _ = projects.CancelProject(cancelProject)
 }
 
 func ProjectsGroupCreateCaller(c *gin.Context) {
 	var projectGroup entity.ProjectGroup
-
-	if err := c.ShouldBindJSON(&projectGroup); err == nil {
-		c.JSON(http.StatusOK, gin.H{"message": "project group JSON input data is valid!"})
-	} else {
+	err := c.ShouldBindJSON(&projectGroup)
+	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+	} else {
+		data, err := project_group.CreateProjectGroup(projectGroup)
+		if err != nil {
+			c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
+		}
+		_, _ = c.Writer.Write(data)
 	}
-	_, _ = project_group.CreateProjectGroup(projectGroup)
+
 }
 
 func CostModelsCaller(c *gin.Context) {
 	var costModels entity.CostModels
-
-	if err := c.ShouldBindJSON(&costModels); err == nil {
-		c.JSON(http.StatusOK, gin.H{"message": "Cost Models JSON input data is valid!"})
-	} else {
+	err := c.ShouldBindJSON(&costModels)
+	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+	} else {
+		data, err := cost_models.CostModels(costModels)
+		if err != nil {
+			c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
+		}
+		_, _ = c.Writer.Write(data)
 	}
-	_, _ = cost_models.CostModels(costModels)
+
 }
 
 func UploadFileCaller(c *gin.Context) {
 	file, handler, err := c.Request.FormFile("file")
-
 	if err != nil {
 		c.JSON(http.StatusBadRequest, gin.H{"message": "A Bad File upload request! "})
 	}
-	_, _ = ws_files.Upload(&file, handler)
+	data, err := ws_files.Upload(&file, handler)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
+	}
+	_, _ = c.Writer.Write(data)
 }

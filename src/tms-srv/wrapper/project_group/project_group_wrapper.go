@@ -22,30 +22,28 @@ type Response struct {
 	Response int    `json:"response"`
 }
 
-func CreateProjectGroup(resp entity.ProjectGroup) (status []string, err error) {
+func CreateProjectGroup(projectGroup entity.ProjectGroup) ([]byte, error) {
 
 	var c configs.WSConfig
 	var contents []byte
 
 	logger := log.Instance()
 	token := helper.GetToken()
+
 	contents = helper.GetJsonContents()
 	//unmarshal the json to struct object
-	err = json.Unmarshal([]byte(contents), &c)
+	err := json.Unmarshal([]byte(contents), &c)
 	if err != nil {
 		logger.Error("Error", zap.Any("createProjectGroup", "json data input error"))
-		return
 	}
 	//construct login Restful API path
 	apiPath := c.WSProjectGroup.ProjectGroupCreate
 	if apiPath == "" {
 		logger.Error("Error", zap.Any("createProjectGroup", "REST API cannot read from JSON config file "))
-		return
 	}
-	jsonValue, err := json.Marshal(&resp)
+	jsonValue, err := json.Marshal(&projectGroup)
 	if err != nil {
 		logger.Error("Error", zap.Any("createProjectGroup", "json data input error"))
-		return
 	}
 	req, _ := http.NewRequest("POST", apiPath, bytes.NewBuffer(jsonValue))
 	req.Header.Set("Content-Type", "application/json")
@@ -61,7 +59,18 @@ func CreateProjectGroup(resp entity.ProjectGroup) (status []string, err error) {
 	data, _ := ioutil.ReadAll(rsp.Body)
 	rsp.Body.Close()
 
-	status = helper.ParseCommonJSONResult(data)
+	dynamicStrutForJson := make(map[string]interface{})
+	err = json.Unmarshal(data, &dynamicStrutForJson)
+	if err != nil {
+		logger.Error("Error", zap.Any("cancelProject", "REST API cannot unmarshal correctly."))
 
-	return status, err
+	}
+	//make json looks beautiful.
+	beautifulJson, _ := json.MarshalIndent(dynamicStrutForJson, "", "\t")
+
+	//testing the output result into a json file.
+	//err = ioutil.WriteFile("post.json", []byte(beautifulJson), 0644)
+	return beautifulJson, err
+	//status = helper.ParseCommonJSONResult(data)
+	//return status, err
 }

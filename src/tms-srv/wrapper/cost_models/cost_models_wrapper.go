@@ -7,10 +7,11 @@ import (
 	"GRM/src/tms-srv/entity"
 	"encoding/json"
 	"go.uber.org/zap"
+	"io/ioutil"
 	"net/http"
 )
 
-func CostModels(models entity.CostModels) (*http.Response, error) {
+func CostModels(models entity.CostModels) ([]byte, error) {
 	var c configs.WSConfig
 	var contents []byte
 
@@ -47,13 +48,13 @@ func CostModels(models entity.CostModels) (*http.Response, error) {
 	//unmarshal the json to struct object
 	err := json.Unmarshal([]byte(contents), &c)
 	if err != nil {
-		logger.Error("Error", zap.Any("CostModels", "REST API cannot unmarshal from JSON file "))
+		logger.Error("Error", zap.Any("CostModels", "REST API cannot unmarshal from JSON file. "))
 	}
 	//construct login Restful API path
 	apiPath := c.WSCostModels.CostModels
 
 	if apiPath == "" {
-		logger.Error("Error", zap.Any("CostModels", "REST API cannot read from JSON config file "))
+		logger.Error("Error", zap.Any("CostModels", "REST API cannot read from JSON config file. "))
 	}
 
 	req, _ := http.NewRequest("GET", apiPath, nil)
@@ -69,13 +70,21 @@ func CostModels(models entity.CostModels) (*http.Response, error) {
 
 	client := &http.Client{}
 	rsp, err := client.Do(req)
-	return rsp, err
-	//if err != nil {
-	//	fmt.Println(err.Error())
-	//}
-	//Reads the body of response and closes the body reader when done reading it.
-	//data, _ := ioutil.ReadAll(rsp.Body)
-	//_ = rsp.Body.Close()
+	data, _ := ioutil.ReadAll(rsp.Body)
+	rsp.Body.Close()
+
+	dynamicStrutForJson := make(map[string]interface{})
+	err = json.Unmarshal(data, &dynamicStrutForJson)
+	if err != nil {
+		logger.Error("Error", zap.Any("CostModels", "REST API cannot unmarshal correctly."))
+
+	}
+	//make json looks beautiful.
+	beautifulJson, _ := json.MarshalIndent(dynamicStrutForJson, "", "\t")
+
+	//testing the output result into a json file.
+	//err = ioutil.WriteFile("post.json", []byte(beautifulJson), 0644)
+	return beautifulJson, err
 
 	//status = helper.ParseCommonJSONResult(data)
 	//return data, err

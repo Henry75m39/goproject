@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 )
 
-func Upload(file *multipart.File, handler *multipart.FileHeader) (status []string, err error) {
+func Upload(file *multipart.File, handler *multipart.FileHeader) (data []byte, err error) {
 	var c configs.WSConfig
 	var contents []byte
 
@@ -54,11 +54,22 @@ func Upload(file *multipart.File, handler *multipart.FileHeader) (status []strin
 	}
 
 	//Reads the body of response and closes the body reader when done reading it.
-	data, _ := ioutil.ReadAll(resp.Body)
-	_ = resp.Body.Close()
+	data, err = ioutil.ReadAll(resp.Body)
+	resp.Body.Close()
 
-	status = helper.ParseCommonJSONResult(data)
-	return status, err
+	dynamicStrutForJson := make(map[string]interface{})
+	err = json.Unmarshal(data, &dynamicStrutForJson)
+	if err != nil {
+		logger.Error("Error", zap.Any("FileUpload:", "REST API cannot unmarshal correctly."))
+
+	}
+	//make json looks beautiful.
+	beautifulJson, _ := json.MarshalIndent(dynamicStrutForJson, "", "\t")
+
+	return beautifulJson, err
+
+	//status = helper.ParseCommonJSONResult(data)
+	//return status, err
 	// Check the response
 	//if res.StatusCode != http.StatusOK {
 	//fmt.Println(http.StatusOK, res.Status)

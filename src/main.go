@@ -25,10 +25,12 @@ func main() {
 	service.Init(
 		micro.Action(func(context *cli.Context) {
 			//initialize LevelDB for application.
-			db.InitLevelDB()
-			logger.Info("Info", zap.Any("tms-srv", "tms-srv is starting now ..."))
+			instance := db.InitLevelDB()
+			defer instance.Close()
 
+			//start Gin Web Server
 			server.GinServer()
+			logger.Info("Info", zap.Any("tms-srv", "tms-srv is starting now ..."))
 		}),
 
 		micro.AfterStop(func() error {

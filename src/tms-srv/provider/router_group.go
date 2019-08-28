@@ -25,7 +25,7 @@ func ServiceRouterGroup(router *gin.Engine) {
 	{
 		g3.GET("", CostModelsCaller)
 	}
-
+	//group 4: This group define for files router service
 	g4 := router.Group("/files")
 	{
 		g4.POST("", UploadFileCaller)
