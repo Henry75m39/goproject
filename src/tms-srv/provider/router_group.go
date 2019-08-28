@@ -30,4 +30,9 @@ func ServiceRouterGroup(router *gin.Engine) {
 	{
 		g4.POST("", UploadFileCaller)
 	}
+	//group 5: This group define for task router service
+	g5 := router.Group("/tasks")
+	{
+		g5.GET("", TasksCaller)
+	}
 }

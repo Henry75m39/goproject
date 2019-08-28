@@ -6,6 +6,7 @@ import (
 	"GRM/src/tms-srv/wrapper/project_group"
 	"GRM/src/tms-srv/wrapper/projects"
 	"GRM/src/tms-srv/wrapper/ws_files"
+	"GRM/src/tms-srv/wrapper/ws_tasks"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -76,4 +77,18 @@ func UploadFileCaller(c *gin.Context) {
 		c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
 	}
 	_, _ = c.Writer.Write(data)
+}
+
+func TasksCaller(c *gin.Context) {
+	var tasks entity.Tasks
+	err := c.ShouldBindJSON(&tasks)
+	if err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
+	} else {
+		data, err := ws_tasks.GetAllTasks(tasks)
+		if err != nil {
+			c.JSON(http.StatusNotFound, gin.H{"error": err.Error()})
+		}
+		_, _ = c.Writer.Write(data)
+	}
 }

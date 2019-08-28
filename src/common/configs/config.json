@@ -14,6 +14,9 @@
   "WS_Files" : {
     "Files" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/files"
   },
+  "WS_Tasks" : {
+    "Tasks" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks"
+  },
   "WS_Info": {
     "username": "henryli",
     "password": "Dreambaby#12"
