@@ -25,8 +25,7 @@ func main() {
 	service.Init(
 		micro.Action(func(context *cli.Context) {
 			//initialize LevelDB for application.
-			instance := db.InitLevelDB()
-			defer instance.Close()
+			db.InitLevelDB()
 
 			//start Gin Web Server
 			server.GinServer()
