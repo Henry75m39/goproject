@@ -64,9 +64,6 @@ func TasksClaim(claim entity.TasksClaim) ([]byte, error) {
 
 	params := make(map[string]string)
 
-	body := make(map[string]interface{})
-	body["key"] = claim
-
 	headers := make(map[string]string)
 	token := helper.GetToken()
 	headers["token"] = *token
@@ -84,7 +81,7 @@ func TasksClaim(claim entity.TasksClaim) ([]byte, error) {
 		return nil, errors.New("new request is fail ")
 	}
 
-	data, err := httpx.Post(apiPath, body, params, headers)
+	data, err := httpx.Post(apiPath, claim, params, headers)
 
 	return data, err
 }
