@@ -7,21 +7,29 @@ import (
 	"go.uber.org/zap"
 )
 
-var err error
-
+//Global db instance variable
 var Instance *leveldb.DB
 
-func InitLevelDB() *leveldb.DB {
+//LevelDB is designed that way and it doesn't allow more than a single instance of the database to be open.
+// All of the options are for a single process.
+
+//The init function (which is called automatically for every package) to initialize it.
+
+func init() {
+	var err error
 	logger := log.Instance()
 	//initialize levelDB storage files under leveldb directory.
 	//Todo: Move the data persist path can be configurable in JSON file.
+
+	//Instance = new(leveldb.DB)  this may not necessary, it only for invalid memory error
 	Instance, err = leveldb.OpenFile("data/goapp/leveldb", nil)
 	if err != nil {
 		fmt.Println("LevelDB errors: %s", err)
 		logger.Error("ERROR:", zap.Any("DBERROR:", err))
 		panic(err)
 	}
-	return Instance
+	defer Instance.Close()
+	//return Instance
 }
 
 func ValidateKeyInDb(key string) bool {

@@ -20,19 +20,24 @@ func ServiceRouterGroup(router *gin.Engine) {
 		g2.POST("/create", ProjectsGroupCreateCaller)
 
 	}
+
 	//group 3: This group define for cost models router service
 	g3 := router.Group("/costmodels")
 	{
 		g3.GET("", CostModelsCaller)
 	}
+
 	//group 4: This group define for files router service
 	g4 := router.Group("/files")
 	{
 		g4.POST("", UploadFileCaller)
 	}
+
 	//group 5: This group define for task router service
 	g5 := router.Group("/tasks")
 	{
 		g5.GET("", TasksCaller)
+		g5.POST("/claim", TasksClaimCaller)
+		g5.POST("/complete", TasksCompleteCaller)
 	}
 }

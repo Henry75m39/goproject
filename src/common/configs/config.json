@@ -15,7 +15,9 @@
     "Files" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/files"
   },
   "WS_Tasks" : {
-    "Tasks" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks"
+    "Tasks" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks",
+    "TasksClaim" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks/claim",
+    "TasksComplete" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks/complete"
   },
   "WS_Info": {
     "username": "henryli",

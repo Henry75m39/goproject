@@ -57,3 +57,65 @@ func GetAllTasks(tasks entity.Tasks) ([]byte, error) {
 	return data, err
 
 }
+
+func TasksClaim(claim entity.TasksClaim) ([]byte, error) {
+	var c configs.WSConfig
+	var contents []byte
+
+	params := make(map[string]string)
+
+	body := make(map[string]interface{})
+	body["key"] = claim
+
+	headers := make(map[string]string)
+	token := helper.GetToken()
+	headers["token"] = *token
+
+	contents = helper.GetJsonContents()
+	//unmarshal the json to struct object
+	err := json.Unmarshal([]byte(contents), &c)
+	if err != nil {
+		return nil, errors.New("new request is fail ")
+	}
+	//construct login Restful API path
+	apiPath := c.WSTasks.TasksClaim
+
+	if apiPath == "" {
+		return nil, errors.New("new request is fail ")
+	}
+
+	data, err := httpx.Post(apiPath, body, params, headers)
+
+	return data, err
+}
+
+func TasksComplete(complete entity.TasksComplete) ([]byte, error) {
+	var c configs.WSConfig
+	var contents []byte
+
+	params := make(map[string]string)
+
+	//body := make(map[string]interface{})
+	//body["key"] = complete
+
+	headers := make(map[string]string)
+	token := helper.GetToken()
+	headers["token"] = *token
+
+	contents = helper.GetJsonContents()
+	//unmarshal the json to struct object
+	err := json.Unmarshal([]byte(contents), &c)
+	if err != nil {
+		return nil, errors.New("new request is fail ")
+	}
+	//construct login Restful API path
+	apiPath := c.WSTasks.TasksComplete
+
+	if apiPath == "" {
+		return nil, errors.New("new request is fail ")
+	}
+
+	data, err := httpx.Post(apiPath, complete, params, headers)
+
+	return data, err
+}

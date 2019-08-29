@@ -64,7 +64,7 @@ func Get(url string, params map[string]string, headers map[string]string) ([]byt
 //}
 
 //Post http post method
-func Post(url string, body map[string]string, params map[string]string, headers map[string]string) ([]byte, error) {
+func Post(url string, body interface{}, params map[string]string, headers map[string]string) ([]byte, error) {
 	//add post body
 	var bodyJson []byte
 	var req *http.Request
@@ -113,7 +113,7 @@ func Post(url string, body map[string]string, params map[string]string, headers 
 	dynamicStrutForJson := make(map[string]interface{})
 	err = json.Unmarshal(data, &dynamicStrutForJson)
 	if err != nil {
-		logger.Error("Error", zap.Any("cancelProject", "REST API cannot unmarshal correctly."))
+		logger.Error("Error", zap.Any("Error", "REST API cannot unmarshal correctly."))
 
 	}
 	//make json looks beautiful.

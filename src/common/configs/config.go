@@ -43,5 +43,7 @@ type WSFiles struct {
 }
 
 type WSTasks struct {
-	Tasks string `json:"Tasks"`
+	Tasks         string `json:"Tasks"`
+	TasksClaim    string `json:"TasksClaim"`
+	TasksComplete string `json:"TasksComplete"`
 }

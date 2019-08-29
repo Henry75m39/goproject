@@ -2,7 +2,6 @@ package main
 
 import (
 	"GRM/src/common/configs"
-	"GRM/src/common/utils/db"
 	"GRM/src/common/utils/log"
 	"GRM/src/tms-srv/server"
 	"github.com/micro/cli"
@@ -25,7 +24,7 @@ func main() {
 	service.Init(
 		micro.Action(func(context *cli.Context) {
 			//initialize LevelDB for application.
-			db.InitLevelDB()
+			//db.InitLevelDB()
 
 			//start Gin Web Server
 			server.GinServer()
