@@ -1,23 +1,23 @@
 {
-  "WS_Login_API": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/login",
-  "WS_TMSLookup_API": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tms/search",
+  "WS_Login_API": "http://localhost:8080/ws-api/v1/login",
+  "WS_TMSLookup_API": "http://localhost:8080/ws-api/v1/tms/search",
   "WS_Project_Group": {
-    "ProjectGroup_Create_API": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projectGroups/create"
+    "ProjectGroup_Create_API": "http://localhost:8080/ws-api/v1/projectGroups/create"
   },
   "WS_Projects": {
-    "Create_For_Task": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/createForTask",
-    "Cancel_Project": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/cancel"
+    "Create_For_Task": "http://localhost:8080/ws-api/v1/projects/createForTask",
+    "Cancel_Project": "http://localhost:8080/ws-api/v1/projects/cancel"
   },
   "WS_Cost_Models": {
-    "Cost_Models": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/costModels"
+    "Cost_Models": "http://localhost:8080/ws-api/v1/costModels"
   },
   "WS_Files" : {
-    "Files" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/files"
+    "Files" : "http://localhost:8080/ws-api/v1/files"
   },
   "WS_Tasks" : {
-    "Tasks" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks",
-    "TasksClaim" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks/claim",
-    "TasksComplete" : "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks/complete"
+    "Tasks" : "http://localhost:8080/ws-api/v1/tasks",
+    "TasksClaim" : "http://localhost:8080/ws-api/v1/tasks/claim",
+    "TasksComplete" : "http://localhost:8080/ws-api/v1/tasks/complete"
   },
   "WS_Info": {
     "username": "",
