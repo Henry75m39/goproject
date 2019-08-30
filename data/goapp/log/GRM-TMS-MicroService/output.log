@@ -1,0 +1,882 @@
+2019-08-12 15:30:37.900	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 15:31:07.724	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 15:38:21.928	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 17:03:44.767	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 17:04:14.595	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 17:07:57.993	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 17:08:39.165	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 17:10:34.419	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 17:11:17.844	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 18:45:48.219	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 18:46:18.737	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 18:54:05.375	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 18:54:36.889	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 18:58:01.193	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 18:59:02.665	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:02:57.932	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:03:42.290	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:04:14.268	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:05:27.315	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:10:53.613	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:13:34.399	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:15:38.917	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:16:13.840	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:18:11.601	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:18:45.681	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:19:44.582	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:20:47.505	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:21:29.130	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-12 19:22:56.235	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-12 19:23:26.072	info	log/log_helper.go:77	Adjusting log level:  info => debug
+2019-08-13 13:56:05.721	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-13 13:56:35.313	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-13 13:59:47.556	info	src/main.go:30	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-13 14:00:17.379	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-13 19:05:17.291	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-13 19:05:47.037	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-13 19:09:47.926	info	server/gin_server.go:48	TMS Shutdown Server ...
+2019-08-13 19:09:47.926	info	server/gin_server.go:56	TMS Server exiting
+2019-08-13 19:09:47.926	info	log/log.go:20	Transport [http] Listening on [::]:49350
+2019-08-13 19:09:47.926	info	log/log.go:20	Broker [http] Connected to [::]:49351
+2019-08-13 19:09:47.927	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-132f640e-b8b5-4e7e-b47e-c97cc50dff48
+2019-08-13 19:10:45.206	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-13 19:11:56.137	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 09:58:36.953	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 09:59:06.774	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 10:04:14.121	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:05:23.347	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:07:03.579	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 10:18:47.297	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:19:17.487	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 10:23:04.271	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:23:38.152	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 10:31:39.413	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:32:12.300	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 10:45:52.546	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 10:46:27.529	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 11:14:09.590	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 11:14:39.418	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 11:20:15.761	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 11:21:44.708	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 11:26:10.568	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 11:26:40.416	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 11:32:36.549	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 11:33:06.320	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 14:36:06.445	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 14:36:41.763	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 16:44:18.465	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 16:44:51.701	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 17:14:57.304	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:15:27.269	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 17:26:32.361	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:27:09.752	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 17:32:30.529	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:38:45.201	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:39:18.697	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 17:39:48.221	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 17:39:48.770	info	helper/token_helper.go:63	Info	{"Value:": "748879892"}
+2019-08-14 17:41:46.792	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 17:41:47.251	info	helper/token_helper.go:63	Info	{"Value:": "748879892"}
+2019-08-14 17:44:21.212	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:44:51.696	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 17:49:04.063	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:50:37.159	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:51:36.599	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:52:31.720	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 17:52:59.722	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 18:04:50.716	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 18:05:01.702	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 18:05:01.702	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 18:05:15.727	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 18:05:20.375	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 18:05:20.376	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:29:08.000	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 19:29:31.767	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:29:31.767	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:29:37.832	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 19:29:54.134	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:29:54.134	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:29:58.574	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-14 19:29:58.574	info	server/gin_server.go:57	TMS Server exiting
+2019-08-14 19:29:58.575	info	log/log.go:20	Transport [http] Listening on [::]:59655
+2019-08-14 19:29:58.575	info	log/log.go:20	Broker [http] Connected to [::]:59656
+2019-08-14 19:29:58.575	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-96fa7ab0-b16c-4d8c-9357-40d573b62b71
+2019-08-14 19:30:21.887	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 19:30:47.584	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 19:30:55.726	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:30:55.726	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:32:43.356	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 19:32:53.874	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:32:53.874	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:35:25.441	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 19:35:54.249	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:35:54.249	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 19:35:56.931	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 19:45:45.800	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 19:46:15.642	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 19:46:50.846	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 19:46:50.846	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 20:06:51.925	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 20:07:23.032	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-14 20:07:23.032	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 20:07:23.032	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 20:08:27.679	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 20:08:27.679	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 20:10:02.800	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-14 20:10:11.568	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 20:10:11.568	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 20:10:29.982	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-14 20:10:29.982	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-14 20:10:33.617	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 11:15:41.046	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 11:16:22.663	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 11:16:44.452	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 11:16:45.364	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 11:29:37.365	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 11:29:37.365	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 11:31:15.156	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 11:31:25.349	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 11:31:25.349	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 11:31:42.033	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 11:31:42.033	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 11:31:46.837	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 11:32:59.768	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 11:33:09.168	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 11:33:09.168	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 11:33:39.061	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 12:50:04.790	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 12:50:04.790	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 12:59:37.698	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 12:59:49.810	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 12:59:49.810	info	helper/token_helper.go:63	Info	{"Value:": "677314843"}
+2019-08-15 13:00:19.038	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 13:54:42.302	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 13:55:13.060	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 13:59:00.452	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:01:14.300	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:39:21.131	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:43:59.273	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:49:21.367	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:49:51.632	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 14:51:45.983	error	helper/token_helper.go:108	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-15 14:51:45.983	error	helper/token_helper.go:114	ERROR	{"Related to LevelDB": "leveldb: closed"}
+2019-08-15 14:53:17.837	error	helper/token_helper.go:108	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-15 14:53:31.064	error	helper/token_helper.go:114	ERROR	{"Related to LevelDB": "leveldb: closed"}
+2019-08-15 14:55:26.478	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 14:55:56.175	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 14:56:46.634	info	helper/token_helper.go:64	Info	{"Key:": "sessionId"}
+2019-08-15 14:56:46.634	info	helper/token_helper.go:65	Info	{"Value:": "1763130370"}
+2019-08-15 15:01:25.031	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:02:04.588	info	helper/token_helper.go:64	Info	{"Key:": "sessionId"}
+2019-08-15 15:02:04.588	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:02:04.589	info	helper/token_helper.go:65	Info	{"Value:": "1763130370"}
+2019-08-15 15:02:25.539	info	helper/token_helper.go:64	Info	{"Key:": "sessionId"}
+2019-08-15 15:02:25.539	info	helper/token_helper.go:65	Info	{"Value:": "1763130370"}
+2019-08-15 15:07:31.661	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:08:08.675	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:14:36.399	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:17:00.000	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:31:58.676	info	helper/token_helper.go:64	Info	{"Key:": "sessionId"}
+2019-08-15 15:31:58.676	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:31:58.677	info	helper/token_helper.go:65	Info	{"Value:": "1763130370"}
+2019-08-15 15:38:12.512	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:39:26.930	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:42:58.440	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:43:39.611	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:50:34.657	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:51:04.961	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 15:59:04.150	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 15:59:29.195	info	helper/token_helper.go:62	Info	{"Key:": "sessionId"}
+2019-08-15 15:59:29.195	info	helper/token_helper.go:63	Info	{"Value:": "1998850349"}
+2019-08-15 15:59:33.957	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 16:34:28.985	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 16:35:19.438	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 16:41:00.900	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-15 16:41:30.671	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-15 17:26:01.515	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-15 17:26:01.515	info	server/gin_server.go:57	TMS Server exiting
+2019-08-15 17:26:01.515	info	log/log.go:20	Transport [http] Listening on [::]:53623
+2019-08-15 17:26:01.515	info	log/log.go:20	Broker [http] Connected to [::]:53624
+2019-08-15 17:26:01.516	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-d181ca0c-822e-41fa-904e-09985520608b
+2019-08-16 09:36:23.694	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-16 09:36:53.198	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-16 09:40:52.866	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-16 09:40:52.866	info	helper/token_helper.go:64	Info	{"Value:": "1553894942"}
+2019-08-16 10:07:34.502	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-16 10:07:34.502	info	server/gin_server.go:57	TMS Server exiting
+2019-08-16 10:07:34.502	info	log/log.go:20	Transport [http] Listening on [::]:50464
+2019-08-16 10:07:34.502	info	log/log.go:20	Broker [http] Connected to [::]:50465
+2019-08-16 10:07:34.503	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-41dfbbf7-d7af-481b-889f-59b218f03979
+2019-08-16 10:07:54.426	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-16 10:08:24.206	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-16 10:51:02.956	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-16 10:51:02.956	info	helper/token_helper.go:64	Info	{"Value:": "1143155785"}
+2019-08-16 13:45:19.332	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-16 13:45:19.332	info	server/gin_server.go:57	TMS Server exiting
+2019-08-16 13:45:19.333	info	log/log.go:20	Transport [http] Listening on [::]:51932
+2019-08-16 13:45:19.333	info	log/log.go:20	Broker [http] Connected to [::]:51933
+2019-08-16 13:45:19.333	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-1940d29b-0664-4085-afa9-54cf028dc621
+2019-08-16 14:07:31.002	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-16 14:08:00.528	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-16 16:24:35.454	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-16 16:24:35.454	info	server/gin_server.go:57	TMS Server exiting
+2019-08-16 16:24:35.454	info	log/log.go:20	Transport [http] Listening on [::]:52980
+2019-08-16 16:24:35.455	info	log/log.go:20	Broker [http] Connected to [::]:52981
+2019-08-16 16:24:35.455	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-05c38886-9961-47e3-b94a-562e08020f53
+2019-08-19 13:44:46.334	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-19 13:45:15.417	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-19 13:48:54.505	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 13:48:54.505	info	helper/token_helper.go:64	Info	{"Value:": "1331341129"}
+2019-08-19 13:53:02.472	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 13:53:02.472	info	helper/token_helper.go:64	Info	{"Value:": "1331341129"}
+2019-08-19 14:35:46.479	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 14:35:46.479	info	helper/token_helper.go:64	Info	{"Value:": "1347444042"}
+2019-08-19 15:37:14.124	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:37:14.124	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:38:03.039	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:38:03.039	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:38:15.349	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:38:15.349	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:38:20.586	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:38:20.586	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:41:46.360	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:41:46.360	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:42:26.971	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:42:26.971	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:42:47.139	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:42:47.139	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:42:58.731	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:42:58.731	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:43:14.559	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:43:14.559	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:43:33.024	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:43:33.024	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:47:26.012	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:47:26.012	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:47:34.642	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:47:34.642	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:50:34.027	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:50:34.027	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:51:00.952	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:51:00.952	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:52:23.891	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:52:23.891	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:52:54.157	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:52:54.157	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:56:52.218	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-19 15:56:52.219	info	helper/token_helper.go:64	Info	{"Value:": "1516576716"}
+2019-08-19 15:58:42.555	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-19 15:58:42.555	info	server/gin_server.go:57	TMS Server exiting
+2019-08-19 15:58:42.555	info	log/log.go:20	Transport [http] Listening on [::]:55097
+2019-08-19 15:58:42.555	info	log/log.go:20	Broker [http] Connected to [::]:55098
+2019-08-19 15:58:42.555	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-933e0947-390d-430b-85ea-307c39b2e726
+2019-08-19 18:41:40.189	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-19 18:42:09.891	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-20 17:18:58.286	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-20 17:18:58.286	info	server/gin_server.go:57	TMS Server exiting
+2019-08-20 17:18:58.286	info	log/log.go:20	Transport [http] Listening on [::]:54434
+2019-08-20 17:18:58.286	info	log/log.go:20	Broker [http] Connected to [::]:54435
+2019-08-20 17:18:58.287	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-114cba32-610c-410c-9a88-940b705813f2
+2019-08-22 11:09:28.727	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 11:09:58.053	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 11:26:23.415	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-22 11:26:23.415	info	helper/token_helper.go:64	Info	{"Value:": "569219793"}
+2019-08-22 11:28:24.778	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-22 11:28:24.778	info	helper/token_helper.go:64	Info	{"Value:": "569219793"}
+2019-08-22 16:29:24.349	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 16:29:54.022	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 16:34:41.216	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 16:35:11.059	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 16:36:43.324	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 16:37:13.070	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 16:39:08.151	error	cost_models/cost_models_wrapper.go:58	Error	{"CostModels": "REST API cannot read from JSON config file "}
+2019-08-22 16:42:52.442	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 16:43:22.269	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 16:44:29.909	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-22 16:44:30.293	info	helper/token_helper.go:64	Info	{"Value:": "1777062474"}
+2019-08-22 16:58:07.317	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-22 16:58:37.136	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-22 17:01:48.368	info	helper/token_helper.go:63	Info	{"Key:": "sessionId"}
+2019-08-22 17:01:48.368	info	helper/token_helper.go:64	Info	{"Value:": "1062582645"}
+2019-08-23 15:54:23.185	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 15:54:52.931	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 15:55:16.278	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 15:55:16.278	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 15:55:16.278	info	log/log.go:20	Transport [http] Listening on [::]:50295
+2019-08-23 15:55:16.278	info	log/log.go:20	Broker [http] Connected to [::]:50296
+2019-08-23 15:55:16.279	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-3549ea3d-9d92-46aa-84d9-9ed54bd3c434
+2019-08-23 15:55:30.447	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 15:56:02.559	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:08:39.434	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:09:12.428	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:09:33.472	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:10:03.236	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:12:37.826	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 16:12:37.826	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 16:12:37.826	info	log/log.go:20	Transport [http] Listening on [::]:50402
+2019-08-23 16:12:37.826	info	log/log.go:20	Broker [http] Connected to [::]:50403
+2019-08-23 16:12:37.827	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-78329886-97f9-4214-91ca-cc7845b1f107
+2019-08-23 16:12:49.383	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:13:24.725	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:29:12.597	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:29:58.049	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:30:20.847	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:30:49.938	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:34:35.101	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 16:34:35.102	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 16:34:35.102	info	log/log.go:20	Transport [http] Listening on [::]:50695
+2019-08-23 16:34:35.102	info	log/log.go:20	Broker [http] Connected to [::]:50696
+2019-08-23 16:34:35.102	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-d3413103-c091-4995-a458-4ea10382ba66
+2019-08-23 16:35:36.058	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:36:05.783	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 16:40:05.614	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 16:40:05.615	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 16:40:05.615	info	log/log.go:20	Transport [http] Listening on [::]:50726
+2019-08-23 16:40:05.615	info	log/log.go:20	Broker [http] Connected to [::]:50727
+2019-08-23 16:40:05.615	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-0c4aa724-ca71-455c-82e8-1cea6aa527eb
+2019-08-23 16:40:17.318	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 16:41:55.840	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:51:48.224	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:52:19.691	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 17:53:51.250	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:54:20.279	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 17:54:51.353	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:55:23.110	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 17:56:59.664	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:57:31.159	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 17:58:00.988	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:03:18.777	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:03:48.593	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:15:00.943	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:15:37.683	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:19:17.398	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:19:39.578	info	provider/api_provider.go:72	Received file: se33111364c.jpg
+2019-08-23 18:19:48.269	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:24:39.578	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:45:28.188	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:46:00.774	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:47:35.693	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:48:05.515	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:50:25.147	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:50:54.986	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:52:07.119	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:52:38.907	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:54:33.314	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:55:03.044	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:56:20.631	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 18:56:20.631	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 18:56:20.631	info	log/log.go:20	Transport [http] Listening on [::]:52439
+2019-08-23 18:56:20.631	info	log/log.go:20	Broker [http] Connected to [::]:52440
+2019-08-23 18:56:20.632	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-31f5a692-9e1b-4707-b8c6-d7530ebfaae4
+2019-08-23 18:57:09.949	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:57:39.753	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:57:43.960	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 18:57:43.960	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 18:57:43.960	info	log/log.go:20	Transport [http] Listening on [::]:52447
+2019-08-23 18:57:43.960	info	log/log.go:20	Broker [http] Connected to [::]:52448
+2019-08-23 18:57:43.961	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-dd98e8f0-c375-4fc2-ae25-766a7c0fe4af
+2019-08-23 18:58:08.503	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:58:25.586	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 18:58:25.586	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 18:58:25.587	info	log/log.go:20	Transport [http] Listening on [::]:52457
+2019-08-23 18:58:25.587	info	log/log.go:20	Broker [http] Connected to [::]:52458
+2019-08-23 18:58:25.588	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-c18f2546-039a-4595-ad12-0d8b4fc17104
+2019-08-23 18:58:38.329	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:58:45.158	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 18:59:14.986	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 18:59:26.948	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 18:59:26.949	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 18:59:26.949	info	log/log.go:20	Transport [http] Listening on [::]:52465
+2019-08-23 18:59:26.949	info	log/log.go:20	Broker [http] Connected to [::]:52466
+2019-08-23 18:59:26.949	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-5a9e386e-db20-49e0-8610-caf3f46d2ab7
+2019-08-23 18:59:36.369	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:00:15.321	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:04:21.618	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:05:06.237	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:07:51.481	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:08:35.340	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:13:31.257	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:14:01.080	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:41:12.394	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:41:42.594	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:45:00.538	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:45:30.298	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:45:47.111	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:46:16.583	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:50:26.902	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:50:56.643	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:51:33.440	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:52:04.721	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:52:51.398	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:53:20.801	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:54:32.980	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:55:11.951	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:55:49.510	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:56:19.248	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:58:45.314	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 19:59:15.072	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 19:59:33.452	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:00:03.195	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:05:43.257	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:06:12.899	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:06:59.641	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:07:29.355	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:28:55.726	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:29:55.905	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:30:25.610	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:30:55.645	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 20:30:55.645	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 20:30:55.645	info	log/log.go:20	Transport [http] Listening on [::]:53610
+2019-08-23 20:30:55.646	info	log/log.go:20	Broker [http] Connected to [::]:53611
+2019-08-23 20:30:55.646	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-7621ceba-5896-452b-bc66-3571acbfa026
+2019-08-23 20:31:28.907	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:31:58.661	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:32:20.172	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 20:32:20.172	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 20:32:20.173	info	log/log.go:20	Transport [http] Listening on [::]:53625
+2019-08-23 20:32:20.173	info	log/log.go:20	Broker [http] Connected to [::]:53626
+2019-08-23 20:32:20.173	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-1677b59e-1223-4fbc-a5d1-022be9ebdff8
+2019-08-23 20:32:49.502	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:33:18.752	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:34:21.256	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 20:34:21.257	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 20:34:21.257	info	log/log.go:20	Transport [http] Listening on [::]:53645
+2019-08-23 20:34:21.257	info	log/log.go:20	Broker [http] Connected to [::]:53646
+2019-08-23 20:34:21.257	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-ec646894-eb1b-4f42-9bb0-4699a2a0a71c
+2019-08-23 20:34:37.396	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:35:07.066	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-23 20:35:51.444	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-23 20:35:51.444	info	server/gin_server.go:57	TMS Server exiting
+2019-08-23 20:35:51.445	info	log/log.go:20	Transport [http] Listening on [::]:53662
+2019-08-23 20:35:51.445	info	log/log.go:20	Broker [http] Connected to [::]:53663
+2019-08-23 20:35:51.445	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-495006b0-d5ff-4bdf-8807-d11295a12743
+2019-08-23 20:36:03.095	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-23 20:36:32.858	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:14:17.736	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:14:46.021	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:18:23.736	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 09:18:23.737	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 09:18:23.737	info	log/log.go:20	Transport [http] Listening on [::]:51965
+2019-08-26 09:18:23.737	info	log/log.go:20	Broker [http] Connected to [::]:51966
+2019-08-26 09:18:23.737	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-01ed746a-090f-4b11-8225-0f87e8fa276a
+2019-08-26 09:18:58.293	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:19:28.067	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:20:49.862	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:21:19.640	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:24:27.145	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:24:58.127	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:25:58.793	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:27:16.897	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:27:55.634	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:28:25.959	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:28:47.471	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:29:16.845	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 09:36:21.097	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:40:01.471	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:56:07.397	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 09:56:37.153	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:02:39.214	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:03:08.967	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:03:48.580	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:04:16.593	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:05:21.315	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:05:39.730	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:06:11.255	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:13:50.046	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:14:46.366	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:15:24.959	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:15:54.723	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:20:35.228	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:21:04.996	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:21:15.951	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:21:45.675	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:23:23.156	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:23:46.011	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:24:07.459	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:25:00.438	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:25:58.213	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:26:27.884	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:26:54.768	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:27:24.523	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:40:07.849	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:40:37.633	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:45:26.525	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:45:56.721	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 10:55:43.820	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 10:56:28.842	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 11:01:49.674	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 11:02:19.427	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 11:07:32.166	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 11:08:01.914	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 11:13:02.275	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 11:14:00.595	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 11:14:40.844	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 13:46:13.623	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 13:46:43.365	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:04:57.078	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:05:27.128	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:20:18.738	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:20:49.008	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:24:13.092	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:24:54.159	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:26:08.996	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:26:38.788	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:33:44.361	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:34:22.528	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:54:12.055	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:54:48.158	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:56:10.953	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 14:56:40.727	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 14:57:43.217	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 14:57:43.217	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 14:57:43.218	info	log/log.go:20	Transport [http] Listening on [::]:57634
+2019-08-26 14:57:43.218	info	log/log.go:20	Broker [http] Connected to [::]:57635
+2019-08-26 14:57:43.218	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-75a06b8b-d72f-4036-b8c9-cb2e930582b1
+2019-08-26 14:59:47.236	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:00:17.005	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:08:08.177	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 15:08:08.178	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 15:08:08.178	info	log/log.go:20	Transport [http] Listening on [::]:57760
+2019-08-26 15:08:08.178	info	log/log.go:20	Broker [http] Connected to [::]:57761
+2019-08-26 15:08:08.178	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-86ff6dad-e62b-4b78-967f-96a811c9f117
+2019-08-26 15:08:46.721	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:09:16.497	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:09:38.076	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 15:09:38.077	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 15:09:38.077	info	log/log.go:20	Transport [http] Listening on [::]:57772
+2019-08-26 15:09:38.077	info	log/log.go:20	Broker [http] Connected to [::]:57773
+2019-08-26 15:09:38.077	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-68a8c69f-8570-46b5-8990-a0632d7088e3
+2019-08-26 15:09:46.227	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:10:16.021	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:13:36.951	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 15:13:36.952	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 15:13:36.952	info	log/log.go:20	Transport [http] Listening on [::]:57798
+2019-08-26 15:13:36.952	info	log/log.go:20	Broker [http] Connected to [::]:57799
+2019-08-26 15:13:36.952	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-3c0d6a15-045e-405e-b6c1-f4c00c9a6667
+2019-08-26 15:14:18.482	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:14:50.358	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:15:14.144	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:15:52.332	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:21:21.118	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:24:52.730	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:25:21.343	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:26:36.114	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:27:05.887	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:29:41.472	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 15:29:41.472	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 15:29:41.472	info	log/log.go:20	Transport [http] Listening on [::]:58618
+2019-08-26 15:29:41.472	info	log/log.go:20	Broker [http] Connected to [::]:58619
+2019-08-26 15:29:41.473	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-d5588cec-9c9e-4766-bb2e-92b0b78bed38
+2019-08-26 15:29:51.111	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:30:20.857	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:32:06.248	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:34:11.379	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:34:41.141	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:38:33.045	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:39:02.838	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:45:03.130	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-26 15:45:03.130	info	server/gin_server.go:57	TMS Server exiting
+2019-08-26 15:45:03.130	info	log/log.go:20	Transport [http] Listening on [::]:58720
+2019-08-26 15:45:03.131	info	log/log.go:20	Broker [http] Connected to [::]:58721
+2019-08-26 15:45:03.131	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-4926193c-ee41-4bcc-b9cd-0b7344024e32
+2019-08-26 15:45:58.866	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:46:28.625	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-26 15:51:29.358	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 15:56:01.266	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 16:07:13.116	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-26 16:07:42.954	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 08:27:27.416	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 08:27:57.179	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 14:10:33.702	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 14:10:33.702	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 14:10:33.702	info	log/log.go:20	Transport [http] Listening on [::]:52593
+2019-08-27 14:10:33.702	info	log/log.go:20	Broker [http] Connected to [::]:52594
+2019-08-27 14:10:33.703	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-e3c10734-e0b0-431e-9ff6-a0dac7f17f1c
+2019-08-27 14:12:20.795	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 14:12:55.908	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 15:35:50.504	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 15:36:05.571	error	helper/token_helper.go:100	Error:	{"Request handling error occurred:": "Post http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/login: dial tcp: lookup wsvr-stg-app-1.vmware.com: no such host"}
+2019-08-27 15:36:44.041	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 15:37:19.010	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 15:40:42.449	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 15:41:12.219	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 15:49:31.703	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 15:50:01.429	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 16:00:12.892	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 16:00:12.892	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 16:00:12.892	info	log/log.go:20	Transport [http] Listening on [::]:54199
+2019-08-27 16:00:12.892	info	log/log.go:20	Broker [http] Connected to [::]:54200
+2019-08-27 16:00:12.893	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-ebe85019-dde7-401f-8404-2a4b670af9f1
+2019-08-27 16:05:30.023	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 16:05:59.805	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 16:06:49.587	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 16:06:49.588	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 16:06:49.588	info	log/log.go:20	Transport [http] Listening on [::]:54241
+2019-08-27 16:06:49.588	info	log/log.go:20	Broker [http] Connected to [::]:54242
+2019-08-27 16:06:49.588	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-a245f329-6252-4276-b2e1-143ede9095fb
+2019-08-27 16:08:01.736	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 16:08:31.513	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 16:09:44.680	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 16:09:44.680	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 16:09:44.680	info	log/log.go:20	Transport [http] Listening on [::]:54294
+2019-08-27 16:09:44.681	info	log/log.go:20	Broker [http] Connected to [::]:54295
+2019-08-27 16:09:44.681	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-9d5c0c51-8c68-470d-9298-f71af1f6d0b3
+2019-08-27 16:36:52.130	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 16:37:21.752	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 16:38:02.533	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 16:38:02.533	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 16:38:02.533	info	log/log.go:20	Transport [http] Listening on [::]:54610
+2019-08-27 16:38:02.533	info	log/log.go:20	Broker [http] Connected to [::]:54611
+2019-08-27 16:38:02.534	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-01d59bb9-6042-4c5a-942e-e88a437de9a3
+2019-08-27 16:38:11.844	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 16:38:41.614	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 16:57:55.641	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 16:57:55.642	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 16:57:55.642	info	log/log.go:20	Transport [http] Listening on [::]:54989
+2019-08-27 16:57:55.642	info	log/log.go:20	Broker [http] Connected to [::]:54990
+2019-08-27 16:57:55.642	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-0b3ecdfa-e099-4802-9266-adb7a523934d
+2019-08-27 16:58:41.242	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 16:59:10.967	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:03:32.746	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:03:32.746	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:03:32.746	info	log/log.go:20	Transport [http] Listening on [::]:55076
+2019-08-27 17:03:32.746	info	log/log.go:20	Broker [http] Connected to [::]:55077
+2019-08-27 17:03:32.747	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-d1521edf-2e4a-465f-ab86-aaa963c3301f
+2019-08-27 17:04:09.470	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:04:39.174	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:05:04.040	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:05:04.041	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:05:04.041	info	log/log.go:20	Transport [http] Listening on [::]:55090
+2019-08-27 17:05:04.041	info	log/log.go:20	Broker [http] Connected to [::]:55091
+2019-08-27 17:05:04.041	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-81277e11-bcb1-45bf-b9dc-c68b4212fea9
+2019-08-27 17:05:16.819	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:05:46.582	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:06:33.888	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:06:33.888	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:06:33.888	info	log/log.go:20	Transport [http] Listening on [::]:55114
+2019-08-27 17:06:33.888	info	log/log.go:20	Broker [http] Connected to [::]:55115
+2019-08-27 17:06:33.889	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-ea6b7a98-6592-4687-956d-ccfcb1e9d20c
+2019-08-27 17:06:50.567	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:07:20.044	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:07:45.992	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:07:45.992	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:07:45.992	info	log/log.go:20	Transport [http] Listening on [::]:55126
+2019-08-27 17:07:45.992	info	log/log.go:20	Broker [http] Connected to [::]:55127
+2019-08-27 17:07:45.993	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-a73d1735-0be1-4c8c-ba93-2199a6bd9fed
+2019-08-27 17:07:55.045	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:08:24.531	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:12:53.521	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:12:53.522	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:12:53.522	info	log/log.go:20	Transport [http] Listening on [::]:55229
+2019-08-27 17:12:53.522	info	log/log.go:20	Broker [http] Connected to [::]:55230
+2019-08-27 17:12:53.522	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-eed48bc9-3f16-4341-a22b-640ad9aea47a
+2019-08-27 17:13:16.204	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:13:45.951	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:17:46.263	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:17:46.263	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:17:46.263	info	log/log.go:20	Transport [http] Listening on [::]:55311
+2019-08-27 17:17:46.263	info	log/log.go:20	Broker [http] Connected to [::]:55312
+2019-08-27 17:17:46.264	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-fce1722e-3b4d-46ca-a6b6-f8147e9ef8f6
+2019-08-27 17:19:00.289	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:19:30.054	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:38:17.153	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:38:17.154	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:38:17.154	info	log/log.go:20	Transport [http] Listening on [::]:55933
+2019-08-27 17:38:17.154	info	log/log.go:20	Broker [http] Connected to [::]:55934
+2019-08-27 17:38:17.154	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-bc7e8f79-ef7e-4079-8c1a-8808c0207daa
+2019-08-27 17:38:29.581	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:38:59.355	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:39:28.271	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:39:28.271	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:39:28.271	info	log/log.go:20	Transport [http] Listening on [::]:55943
+2019-08-27 17:39:28.272	info	log/log.go:20	Broker [http] Connected to [::]:55944
+2019-08-27 17:39:28.272	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-8f95b2c8-74e3-415f-8fc6-4d0625c371d1
+2019-08-27 17:39:37.678	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:40:07.418	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:40:32.645	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:40:32.645	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:40:32.645	info	log/log.go:20	Transport [http] Listening on [::]:55953
+2019-08-27 17:40:32.645	info	log/log.go:20	Broker [http] Connected to [::]:55954
+2019-08-27 17:40:32.646	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-3c867009-717e-4bf3-985c-78b0528620db
+2019-08-27 17:41:13.916	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:41:43.691	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:42:11.397	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:42:11.397	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:42:11.397	info	log/log.go:20	Transport [http] Listening on [::]:55964
+2019-08-27 17:42:11.397	info	log/log.go:20	Broker [http] Connected to [::]:55965
+2019-08-27 17:42:11.397	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-12ce7e0c-4dbc-402b-9cb8-2a33f93b3313
+2019-08-27 17:42:20.715	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:42:50.503	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:52:05.290	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:52:05.290	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:52:05.290	info	log/log.go:20	Transport [http] Listening on [::]:56321
+2019-08-27 17:52:05.290	info	log/log.go:20	Broker [http] Connected to [::]:56322
+2019-08-27 17:52:05.290	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-6654c9a6-678b-4019-8434-1c5857849bd7
+2019-08-27 17:52:15.305	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 17:52:45.091	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 17:59:16.395	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 17:59:16.395	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 17:59:16.395	info	log/log.go:20	Transport [http] Listening on [::]:56600
+2019-08-27 17:59:16.395	info	log/log.go:20	Broker [http] Connected to [::]:56601
+2019-08-27 17:59:16.396	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-e0a92619-f2af-4fc3-8187-e4351bf467a9
+2019-08-27 17:59:39.425	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 18:00:09.183	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 18:01:49.656	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 18:01:49.656	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 18:01:49.656	info	log/log.go:20	Transport [http] Listening on [::]:56652
+2019-08-27 18:01:49.657	info	log/log.go:20	Broker [http] Connected to [::]:56653
+2019-08-27 18:01:49.657	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-bdb6a047-2ab8-452c-b862-0f56ebcfada5
+2019-08-27 18:01:58.921	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 18:02:28.697	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 18:04:01.721	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 18:04:01.721	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 18:04:01.722	info	log/log.go:20	Transport [http] Listening on [::]:56665
+2019-08-27 18:04:01.722	info	log/log.go:20	Broker [http] Connected to [::]:56666
+2019-08-27 18:04:01.722	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-7bb8fe7e-409f-4bd2-ab00-d6fff4f5d4ef
+2019-08-27 18:04:20.979	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 18:04:50.533	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 18:05:58.082	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 18:05:58.082	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 18:05:58.082	info	log/log.go:20	Transport [http] Listening on [::]:56695
+2019-08-27 18:05:58.082	info	log/log.go:20	Broker [http] Connected to [::]:56696
+2019-08-27 18:05:58.083	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-6e7eddde-5aa6-42c8-81c0-eae2ad2eeb6b
+2019-08-27 18:06:09.450	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-27 18:06:39.225	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-27 18:12:53.596	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-27 18:12:53.597	info	server/gin_server.go:57	TMS Server exiting
+2019-08-27 18:12:53.597	info	log/log.go:20	Transport [http] Listening on [::]:56827
+2019-08-27 18:12:53.597	info	log/log.go:20	Broker [http] Connected to [::]:56828
+2019-08-27 18:12:53.597	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-6c44e863-efa4-4011-8b44-c2644a98c80e
+2019-08-28 09:22:37.493	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:23:07.499	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:23:21.611	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:23:21.611	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:23:21.611	info	log/log.go:20	Transport [http] Listening on [::]:59811
+2019-08-28 09:23:21.611	info	log/log.go:20	Broker [http] Connected to [::]:59812
+2019-08-28 09:23:21.611	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-ae4e0777-0430-4963-aaee-e858aaf9970c
+2019-08-28 09:23:34.887	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:24:04.891	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:25:30.547	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:25:30.547	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:25:30.547	info	log/log.go:20	Transport [http] Listening on [::]:59825
+2019-08-28 09:25:30.547	info	log/log.go:20	Broker [http] Connected to [::]:59826
+2019-08-28 09:25:30.548	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-9c18c70c-cd1a-475d-b4ab-200b83667b91
+2019-08-28 09:25:44.858	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:26:14.859	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:27:42.734	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:27:42.734	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:27:42.734	info	log/log.go:20	Transport [http] Listening on [::]:59837
+2019-08-28 09:27:42.734	info	log/log.go:20	Broker [http] Connected to [::]:59838
+2019-08-28 09:27:42.735	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-7b8de5b8-71ec-4340-857c-f10339b070b4
+2019-08-28 09:27:57.346	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:28:27.353	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:29:34.872	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:29:34.873	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:29:34.873	info	log/log.go:20	Transport [http] Listening on [::]:59848
+2019-08-28 09:29:34.873	info	log/log.go:20	Broker [http] Connected to [::]:59849
+2019-08-28 09:29:34.873	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-8e614be6-b20b-4c89-b9b5-9953c68e8e6e
+2019-08-28 09:29:47.019	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:30:17.023	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:33:15.069	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:33:15.069	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:33:15.069	info	log/log.go:20	Transport [http] Listening on [::]:59867
+2019-08-28 09:33:15.070	info	log/log.go:20	Broker [http] Connected to [::]:59868
+2019-08-28 09:33:15.070	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-640cab45-89c8-43da-9586-7c989234d18c
+2019-08-28 09:33:37.062	info	src/main.go:29	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 09:34:07.063	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 09:36:58.733	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 09:36:58.733	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 09:36:58.734	info	log/log.go:20	Transport [http] Listening on [::]:59976
+2019-08-28 09:36:58.734	info	log/log.go:20	Broker [http] Connected to [::]:59977
+2019-08-28 09:36:58.734	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-24f629c5-9cb3-40e9-9db2-840149ecca52
+2019-08-28 10:14:38.320	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 10:20:26.443	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 10:20:26.444	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 10:20:26.444	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 10:20:26.445	info	log/log.go:20	Transport [http] Listening on [::]:49556
+2019-08-28 10:20:26.445	info	log/log.go:20	Broker [http] Connected to [::]:49557
+2019-08-28 10:20:26.445	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-32ea678d-00ae-4b1c-8df5-178398866cea
+2019-08-28 10:21:07.912	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 10:23:57.676	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 10:23:57.676	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 10:23:57.676	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 10:23:57.676	info	log/log.go:20	Transport [http] Listening on [::]:49607
+2019-08-28 10:23:57.677	info	log/log.go:20	Broker [http] Connected to [::]:49608
+2019-08-28 10:23:57.677	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-968b9b88-5b08-449a-8168-19a1762c68d8
+2019-08-28 10:30:00.096	info	server/gin_server.go:49	TMS Shutdown Server ...
+2019-08-28 10:30:00.096	info	server/gin_server.go:57	TMS Server exiting
+2019-08-28 10:30:00.096	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 10:30:00.097	info	log/log.go:20	Transport [http] Listening on [::]:50159
+2019-08-28 10:30:00.097	info	log/log.go:20	Broker [http] Connected to [::]:50160
+2019-08-28 10:30:00.097	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-7789e9d7-9329-4289-a7f4-b810ca24dffd
+2019-08-28 10:30:00.463	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 13:00:18.287	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-28 13:00:38.657	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 13:01:37.990	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-28 13:01:37.990	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-28 13:01:37.990	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 13:01:37.990	info	log/log.go:20	Transport [http] Listening on [::]:51146
+2019-08-28 13:01:37.990	info	log/log.go:20	Broker [http] Connected to [::]:51147
+2019-08-28 13:01:37.992	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-f70ad11e-2ba7-4fac-af6f-47e0b4b04129
+2019-08-28 13:02:19.985	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 14:16:43.373	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-28 14:16:43.373	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-28 14:16:43.373	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 14:16:43.374	info	log/log.go:20	Transport [http] Listening on [::]:52281
+2019-08-28 14:16:43.375	info	log/log.go:20	Broker [http] Connected to [::]:52282
+2019-08-28 14:16:43.375	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-8e6aadd9-fbe7-4f60-b757-970a7c7137ec
+2019-08-28 14:17:24.414	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 17:29:53.276	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-28 17:29:53.276	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-28 17:29:53.276	info	src/main.go:33	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 17:29:53.277	info	log/log.go:20	Transport [http] Listening on [::]:55610
+2019-08-28 17:29:53.277	info	log/log.go:20	Broker [http] Connected to [::]:55611
+2019-08-28 17:29:53.278	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-7b929fe6-f9c2-4ef3-94b4-4246651c8000
+2019-08-28 17:33:49.507	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 17:37:38.595	info	httpx/http_helper.go:44	Go GET URL : %s 
+	{"URL:": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/projects/createForTask?ids=1"}
+2019-08-28 17:38:10.638	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-28 17:38:10.638	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-28 17:38:10.638	info	src/main.go:32	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 17:38:10.638	info	log/log.go:20	Transport [http] Listening on [::]:55690
+2019-08-28 17:38:10.639	info	log/log.go:20	Broker [http] Connected to [::]:55691
+2019-08-28 17:38:10.639	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-812bfa7c-c12e-4e9d-a3e7-f08341bff83a
+2019-08-28 17:46:04.452	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-28 17:46:33.655	info	httpx/http_helper.go:44	Go GET URL : %s 
+	{"URL:": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks?ids=1"}
+2019-08-28 17:46:47.647	info	httpx/http_helper.go:44	Go GET URL : %s 
+	{"URL:": "http://wsvr-stg-app-1.vmware.com:8080/ws-api/v1/tasks?ids=1"}
+2019-08-28 17:49:04.657	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-28 17:49:04.658	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-28 17:49:04.658	info	src/main.go:32	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-28 17:49:04.658	info	log/log.go:20	Transport [http] Listening on [::]:55809
+2019-08-28 17:49:04.658	info	log/log.go:20	Broker [http] Connected to [::]:55810
+2019-08-28 17:49:04.658	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-83377f24-eda5-4df7-a1a6-505a85d9cda1
+2019-08-29 11:14:10.916	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 11:18:15.863	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-29 11:18:15.863	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-29 11:18:15.863	info	src/main.go:31	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-29 11:18:15.863	info	log/log.go:20	Transport [http] Listening on [::]:61659
+2019-08-29 11:18:15.864	info	log/log.go:20	Broker [http] Connected to [::]:61660
+2019-08-29 11:18:15.864	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-78ac577f-c004-4f17-b2db-62862b2a4a25
+2019-08-29 11:19:38.083	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 11:34:53.643	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 13:41:50.783	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 13:45:56.716	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 13:46:02.278	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-29 13:47:24.616	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-29 13:52:06.030	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-29 13:52:30.027	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-29 13:58:38.335	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-29 13:58:59.242	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-30 08:59:41.833	info	log/logger.go:77	Adjusting log level:  info => debug
+2019-08-30 09:06:55.138	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-30 09:07:49.000	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-30 09:39:03.287	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-30 09:40:53.076	error	helper/token_helper.go:112	ERROR	{"Put new sessionId failed caused by": "leveldb: closed"}
+2019-08-30 09:52:46.370	info	server/gin_server.go:51	Info	{"Gin:": "Shutdown Server ..."}
+2019-08-30 09:52:46.370	info	server/gin_server.go:58	Info	{"Gin:": "TMS Server exiting ..."}
+2019-08-30 09:52:46.370	info	src/main.go:31	Info	{"tms-srv": "tms-srv is starting now ..."}
+2019-08-30 09:52:46.371	info	log/log.go:20	Transport [http] Listening on [::]:55333
+2019-08-30 09:52:46.371	info	log/log.go:20	Broker [http] Connected to [::]:55334
+2019-08-30 09:52:46.371	info	log/log.go:20	Registry [mdns] Registering node: com.vmware.tms-b7c0f445-3657-4375-b82e-9678c3a7b0ba
